@@ -1,7 +1,7 @@
 {
   "name": "pdf-textstring",
   "version": "0.0.1",
-  "description": "A node module that extracts text froma pdf and returns null if it isnt possible",
+  "description": "A node module that extracts text from a pdf, and if there is no text to extract then it will return null",
   "main": "index.js",
   "directories": {
     "test": "test"
