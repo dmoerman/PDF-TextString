@@ -1,0 +1,33 @@
+{
+  "name": "pdf-to-text",
+  "version": "0.0.1",
+  "description": "A node module that extracts text froma pdf and returns null if it isnt possible",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmoerman/PDF-TextString.git"
+  },
+  "keywords": [
+    "pdf",
+    "text",
+    "ocr",
+    "convert",
+    "parse",
+    "font",
+    "xpdf",
+    "pdftotext",
+    "pdffonts",
+    "nodejs"
+  ],
+  "author": "Moerman Dylan",
+  "bugs": {
+    "url": "https://github.com/dmoerman/PDF-TextString/issues"
+  },
+  "homepage": "https://github.com/dmoerman/PDF-TextString"
+}
