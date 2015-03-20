@@ -1,5 +1,5 @@
 {
-  "name": "PDF-TextString",
+  "name": "pdf-textstring",
   "version": "0.0.1",
   "description": "A node module that extracts text froma pdf and returns null if it isnt possible",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "vows --spec"
+    "test": ""
   },
   "repository": {
     "type": "git",
