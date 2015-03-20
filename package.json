@@ -1,5 +1,5 @@
 {
-  "name": "pdf-to-text",
+  "name": "PDF-TextString",
   "version": "0.0.1",
   "description": "A node module that extracts text froma pdf and returns null if it isnt possible",
   "main": "index.js",
@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/dmoerman/PDF-TextString/issues"
   },
-  "homepage": "https://github.com/dmoerman/PDF-TextString"
+  "homepage": "https://github.com/dmoerman/PDF-TextString",
+  "license": "ISC"
 }
