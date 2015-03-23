@@ -19,18 +19,16 @@ PDF.prototype.setBinaryPath_PdfFont = function(binary_path){
 PDF.prototype.hasText = function (pdf_path, cb){
     fs.exists(pdf_path, function (exist) {
         if (!exist) return cb('no file exists at the path you specified');
-        fonts(pdf_path,cb);
+        fonts.hasText(pdf_path, cb, PDF.binaryPath_PdfFont);
     })
 };
 
-PDF.prototype.pdftotext = function (pdf_path, options, cb) {
-
+PDF.prototype.pdftotext = function (pdf_path, cb) {
     fs.exists(pdf_path, function (exist) {
         if (!exist) return cb('no file exists at the path you specified');
-        PDF.hasText(pdf_path, function(bool){
-            (bool) ? text.extract(pdf_path, options, cb , PDF.binaryPaths_PdfToText): cb(null,null);
+        PDF.prototype.hasText(pdf_path, function(bool){
+            (bool) ? text.extract(pdf_path, cb , PDF.binaryPaths_PdfToText) : cb(null,null);
         });
-
     });
 };
 
